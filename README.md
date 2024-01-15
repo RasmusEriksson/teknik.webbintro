@@ -2,7 +2,7 @@
 
 KOM IHÅG DETTA!!!!!!:
 
-* mkdir docs: gör nytt folder
+* mkdir "dokumentnamn": gör nytt folder
 
 *cd /c/code/teknik.webbintro/: välj direktory
 
