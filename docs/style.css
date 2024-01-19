@@ -1,6 +1,6 @@
 @keyframes Mower {
     0% {width: 30%;}
-    50% {width: 100%;}
+    50% {width: 40%;}
     100% {width: 30%;}
 
 }
@@ -12,8 +12,8 @@ body {
     flex-direction: row-reverse;
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgb(116, 154, 72);
-    margin-top: 5%;
+    background-color: rgb(113, 105, 140);
+    margin-top: 0%;
 }
 img {
     width: 30%;
@@ -21,4 +21,11 @@ img {
     animation-name: Mower;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+
 }
