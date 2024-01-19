@@ -6,6 +6,14 @@
 
 }
 
+@keyframes Gato {
+    0% {transform: scaleX(-1);}
+    50% {transform: scaleX(1);}
+    100% {transform: scaleX(-1);}
+  
+
+}
+
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -21,6 +29,14 @@ body {
     margin-top: 10%;
     max-height: 10cqmax;
     animation-name: Mower;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.GatoImage2 {
+    width: 40%;
+    margin-top: 10%;
+    max-height: 10cqmax;
+    animation-name: Gato;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
