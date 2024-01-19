@@ -1,7 +1,8 @@
 @keyframes Mower {
-    0% {width: 30%;}
-    50% {width: 40%;}
-    100% {width: 30%;}
+    0% {transform: scaleX(1);}
+    50% {transform: scaleX(-1);}
+    100% {transform: scaleX(1);}
+  
 
 }
 
@@ -15,12 +16,19 @@ body {
     background-color: rgb(113, 105, 140);
     margin-top: 0%;
 }
-img {
-    width: 30%;
+.SkateboardImage {
+    width: 40%;
+    margin-top: 20%;
     max-height: 10cqmax;
     animation-name: Mower;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.GatoImage {
+
+}
+bild2 {
+    width: 30%;
 }
 .navigation {
     list-style: none;
