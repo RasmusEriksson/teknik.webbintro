@@ -1,0 +1,39 @@
+@keyframes SmileBounce {
+    0% {transform: scaleY(1) scaleX(0.5);}
+    50% {transform: scaleY(0.5) scaleX(1);}
+    50% {offset-position: (0,-50);}
+    100% {transform: scaleY(1) scaleX(0.5);}
+ 
+}
+
+.HeadLines {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 100px;
+    background-color: #758aa2;
+    color: aquamarine;
+
+}
+
+.UnderText {
+    color: rgb(255, 223, 170);
+    text-align: center;
+    font-size: 200%;
+    margin-top: 25px;
+    background-color: #59708b;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+body {
+    background-color: rgb(58, 56, 97);
+    text-align: center;
+}
+img {
+    max-height: 500px;
+    min-width: 500px;
+    animation-name: SmileBounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
