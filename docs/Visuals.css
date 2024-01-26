@@ -9,7 +9,7 @@
 .HeadLines {
     text-align: center;
     font-size: 200%;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: #758aa2;
     color: aquamarine;
 
@@ -24,6 +24,17 @@
     margin-left: 150px;
     margin-right: 150px;
 
+}
+.navigation {
+    background-color: rgb(29, 25, 25);
+    font-size: xx-large;
+    text-align: left;
+    color: purple;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
 }
 
 body {
